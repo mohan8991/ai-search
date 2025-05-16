@@ -1,0 +1,16 @@
+{
+  "name": "ai-search",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd search-filter && npm run dev",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
